@@ -1,4 +1,3 @@
-
 export interface LogEntry {
   id: string;
   message: string;
@@ -14,7 +13,7 @@ export interface ProcessingStatus {
 export interface ServerResponse {
   success: boolean;
   logs: string[];
-  folderUrl?: string; // Or repoUrl
+  folderUrl?: string;
   folderName?: string;
   folderId?: string;
   error?: string;
@@ -32,12 +31,3 @@ export interface KeyPayload {
   key?: string;
   alias?: string;
 }
-
-export interface GitHubPayload {
-  token: string;
-  repo: string; // owner/repo
-  branch: string;
-  path: string; // Base path inside repo
-}
-
-export type StorageDestination = 'DRIVE' | 'GITHUB';
