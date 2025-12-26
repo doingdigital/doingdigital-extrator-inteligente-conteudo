@@ -1,0 +1,5 @@
+{
+  "name": "Extrator Inteligente de Conteúdo",
+  "description": "Uma aplicação web para extração, limpeza e arquivamento inteligente de artigos web utilizando a API Gemini.",
+  "requestFramePermissions": []
+}
